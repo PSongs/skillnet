@@ -1,0 +1,640 @@
+.hero{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: auto;
+    padding: 10rem;
+    /* margin-top:7rem; */
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(255, 255, 255);
+    justify-content: space-between;
+}
+
+.hero-container{
+    /* border: 1px solid black; */
+    width: 58%;
+    height: auto;
+}
+
+.hero-logo{
+    /* border: 1px solid black; */
+    border-radius: 15px;
+    width: 41%;
+    height: auto;
+    background-repeat: none;
+    background-size: cover;
+    display: flex;
+}
+
+.hero-img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.hero-h1{
+    /* border: 1px solid black; */
+    padding: 5px;
+    font-weight: 500;
+    font-size: 3.2rem;
+}
+
+.hero-h5{
+    /* border: 1px solid black; */
+    font-weight: 400;
+    padding: 5px;
+    font-size: 1rem;
+    margin-top: 2.5rem;
+}
+
+/* HERO TWO //////////////////////////////////////////////////////////////////////// */
+.herotwo{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 25rem;
+    /* background-color: black; */
+    background-size: cover;
+    background-image: url(/src/assets/african-man-black-suit.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: center;
+}
+
+.hero-two-container{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 25rem;
+    background-color: black;
+    opacity: 80%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.hero-two-container h3{
+    color: white;
+    font-weight: 500;
+}
+
+.Abt-Content{
+    border: 4px solid white;
+    margin-top: 1rem;
+    width: 60%;
+    height: 10rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.Abt-Content h1{
+    color: white;
+    font-weight: 500;
+}
+
+.Abt-Content h4{
+    color: white;
+    font-weight: 400;
+    margin-top: 0.5rem;
+    display: flex;
+}
+
+/* HERO THREE //////////////////////////////////////////////////////////////////////// */
+.herothree{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: auto;
+    padding: 3rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(255, 255, 255);
+    justify-content: space-between;
+}
+
+.herothree-container{
+    /* border: 1px solid black; */
+    width: 32%;
+    height: auto;
+    padding: 1rem;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #eee;
+    justify-content: space-between;    
+}
+
+.herothreelogo1{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 20rem;
+    background-repeat: none;
+    background-size: contain;
+    display: flex;
+}
+
+.herothreeImg1{
+    width: 100%;
+    height: 100%;
+}
+
+.herothreetext{
+    /* border: 1px solid rgb(224, 8, 8); */
+    width: 100%;
+    height: 17rem;
+    padding: 1rem;
+}
+
+.herothreetext1{
+    font-weight: 500;
+}
+
+.herothreetext2{
+    font-weight: 400;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.herothreebox{
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    background-color: #0099D7;
+    margin-top: 3rem;
+    width: 50%;
+    height: auto;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.herothreereadmore{
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.herothreebox:hover{
+    background-color: #020858;
+}
+
+/* HERO FOUR //////////////////////////////////////////////////////////////////////// */
+.herofour{
+/* border: 1px solid black; */
+width: 100%;
+height: auto;
+padding: 3rem;
+padding-left: 10rem;
+padding-right: 10rem;
+display: flex;
+align-items: center;
+align-content: center;
+position: center;
+flex-direction: column;
+background-color: rgb(255, 255, 255);
+justify-content: space-between;
+}
+
+.herofour-container{
+/* border: 1px solid black; */
+width: 100%;
+height: auto;
+padding: 1rem;
+align-items: center;
+height: auto;
+display: flex;
+flex-direction: column;
+/* background-color: #eee; */
+justify-content: space-between;    
+}
+
+.herofourtxt1{
+    font-weight: 500;
+}
+
+.herofourtxt1{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: auto;
+}
+
+.herofourtext2{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 12rem;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.herofour-con{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.herofour-con1{
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    background-color: #eee;
+    width: 49%;
+    height: 4.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.herofour-con1 h4{
+    font-weight: 400;
+}
+
+.herofour-icon{
+    /* border: 1px solid black; */
+    width: 10%;
+    height: 3rem;
+}
+
+.herofoure-icon{
+    scale: 100%;
+}
+
+/* HERO FIVE //////////////////////////////////////////////////////////////////////// */
+.herofive{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: auto;
+    padding: 3rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    position: center;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    justify-content: space-between;
+}
+
+.herofive-container{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+    align-items: center;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    /* background-color: #eee; */
+    justify-content: space-between;    
+}
+
+.herofive-logo{
+    /* border: 1px solid black; */
+    width: 49%;
+    height: 30rem;
+    background-repeat: none;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.herofiveImg{
+    scale: 100%;
+}
+
+.herofivetext{
+    /* border: 1px solid black; */
+    width: 49%;
+    height: 30rem;
+    background-repeat: none;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    padding-left: 3.5rem;
+}
+
+.herotxt1{
+    /* border: 1px solid black; */
+    width: 50%;
+    height: 5rem;
+}
+
+.herofive1{
+    font-weight: 500;
+}
+
+.herotxt2,
+.herotxt3{
+    /* border: 1px solid black; */
+    width: 65%;
+    height: rem;
+}
+
+.herofive2,
+.herofive3{
+    font-weight: 400;
+}
+
+.hero5-contact{
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    background-color: #0099D7;
+    width: 35%;
+    height: 2.5rem;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;   
+}
+
+.hero5us{
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.hero5-contact:hover{
+    background-color: #020858;
+}
+
+/* GENERAL_BUTTON_STYLE ///////////////////////////////////////////////////////////////// */
+button{
+    border: none;
+}
+
+/* HERO SIX //////////////////////////////////////////////////////////////////////// */
+.herosix{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: auto;
+    padding: 3rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    position: center;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    justify-content: space-between;
+}
+
+.herosix-container{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+    align-items: center;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    /* background-color: #eee; */
+    justify-content: space-between;    
+}
+
+.herosixtext{
+     /* border: 1px solid black; */
+     width: 49%;
+     height: 20rem;
+     background-repeat: none;
+     background-size: cover;
+     display: flex;
+     flex-direction: column;
+     padding-left: 3.5rem;
+}
+
+.hero6txt1{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 3rem;
+}
+
+.herosix1{
+    font-weight: 500;
+}
+
+.hero6txt2{
+    /* border: 1px solid black; */
+    width: 65%;
+    height: rem;
+}
+
+.herosix2{
+    font-weight: 400;
+}
+
+.herosix-logo{
+    /* border: 1px solid black; */
+    width: 49%;
+    height: 20rem;
+    background-repeat: none;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.hero6-contact{
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    background-color: #0099D7;
+    width: 35%;
+    height: 2.5rem;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;   
+}
+
+.hero6us{
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.hero6-contact:hover{
+    background-color: #020858;
+}
+
+/* FOOTER ///////////////////////////////////////////////////////////////////////////////////////////////// */
+.footer{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: auto;
+    padding: 3rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    position: center;
+    flex-direction: column;
+    /* background-color: #eee; */
+    justify-content: space-between;
+}
+
+.footer-container{
+    /* border: 1px solid black; */
+    border-radius: 15px;
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+    align-items: center;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    background-color: #eee;
+    justify-content: space-between;    
+}
+
+.section1{
+    /* border: 1px solid black; */
+    width: 34%;
+    height: 15rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.section2{
+    /* border: 1px solid black; */
+    width: 65%;
+    height: 15rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footertxt1{
+    /* border: 1px solid black; */
+}
+
+.footertxt1, h3{
+    font-weight: 500;
+}
+
+.section1 h5{
+    font-weight: 400;
+}
+
+.sectiontxt1{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.sectiontxt2{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 39%;
+    padding: 1.5rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Home-input{
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    width: 73%;
+    padding: 0.5rem;
+}
+
+.Submit{
+    /* border: 1px solid black; */
+    background-color: #0099D7;
+    border-radius: 5px;
+    width: 25%;
+    color: white;
+}
+
+.Submit:hover{
+    background-color: #020858;
+}
+
+.stxt1,
+.stxt2{
+    /* border: 1px solid black; */
+    width: 49%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+}
+
+.stxt1 h5,
+.stxt2 h5{
+    font-weight: 400;
+}
+
+.footersocials{
+    /* border: 1px solid black; */
+    width: 30%;
+    height: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0.5rem;
+}
+
+.copy-right{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 4rem;
+    padding: 2rem;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.copy-right h5{
+    font-weight: 400;
+}
+
+/* .up-arrow{
+    border: 1px solid rgb(240, 10, 163);
+    width: 100%;
+    height: 2.5rem;
+    padding: 0.2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.arrowdiv{
+    border: 1px solid yellow;
+    width: 96%;
+    height: 2rem;
+} */
+
+/* .uparrow{
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 3%;
+    height: 2rem;
+    display: flex;
+    padding: 0.6rem;
+    justify-content: center;
+    background-repeat: none;
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    background-color: #0099D7;
+} */
