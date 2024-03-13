@@ -3,7 +3,7 @@ import "../components/Contact/Contact.css";
 import contactuslogo from "../assets/contact-logo.png";
 import nameicon from "../assets/contact icon.png";
 import emailicon from "../assets/email icon.png";
-import ConLogo from "../assets/SKILLNET LOGO 3.png";
+import ConLogo from "../assets/SKILLNET LOGO 13.png";
 import { Link } from "react-router-dom";
 const Contact = () => {
   return (
@@ -32,7 +32,7 @@ const Contact = () => {
             </div>
 
             {/* FORM //////////////////////////////////////////////////////////////////////////////////// */}
-            <form className="contact-form">
+            <form className="contact-form" action="https://formspree.io/f/xkndzkkw" method="POST">
               <div className="form-group">
                 <img className="fas fa-user" src={nameicon} alt=""></img>
                 <input

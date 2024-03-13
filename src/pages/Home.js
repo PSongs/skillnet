@@ -1,6 +1,6 @@
 import React from "react";
 import "../components/Home/Home.css";
-import herologo from "../assets/business-people-video-call-meeting.jpg";
+import herologo from "../assets/world_img.png";
 import herothreelogo1 from "../assets/engineering image.png";
 import herothreelogo2 from "../assets/logistics woman image.png";
 import herothreelogo3 from "../assets/tech image.png";
@@ -14,6 +14,10 @@ import instagram from "../assets/instagram.png";
 import facebook from "../assets/facebook.png";
 import arrow from "../assets/up arrow.png";
 import Nav from "../components/Nav/Nav";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/navigation";
 
 const Home = () => {
   return (
@@ -41,19 +45,43 @@ const Home = () => {
       <div className="herotwo">
         <div className="hero-two-container">
           <h3>About Our Company</h3>
-          <div className="Abt-Content">
-            <h1>OUR MISSION</h1>
-            <h4>
-              To provide efficient and innovative project management,
-              engineering, technical and logistics services, through constant
-              responsive approach, with open-mindedness, respect and honesty in
-              our service delivery
-            </h4>
-          </div>
+          <Swiper
+            spaceBetween={0}
+            slidesPerView={1}
+            autoplay={{ delay: 3000, disableOnInteraction: false }}
+            modules={[Autoplay]}
+            className="Abt-Content-Wrap"
+          >
+            <SwiperSlide className="Abt-Content">
+              <h2>OUR MISSION</h2>
+              <h4>
+                To provide efficient and innovative project management,
+                engineering, technical and logistics services, through constant
+                responsive approach, with open-mindedness, respect and honesty
+                in our service delivery
+              </h4>
+            </SwiperSlide>
+            <SwiperSlide className="Abt-Content">
+              <h2>OUR VISION</h2>
+              <h4>
+                To attract global recognition and remain one name to beat in the
+                business world, through our constant and deliberate commitment
+                to customer’s / client’s service and satisfaction.
+              </h4>
+            </SwiperSlide>
+            <SwiperSlide className="Abt-Content">
+              <h2>WHAT WE DO FOR BUSINESS</h2>
+              <h4>
+                To provide efficient and innovative project management,
+                engineering, technical and logistics services, through constant
+                responsive approach, with open-mindedness, respect and honesty
+                in our service delivery.
+              </h4>
+            </SwiperSlide>
+          </Swiper>
         </div>
       </div>
 
-      {/* HERO THREE //////////////////////////////////////////////////////////////////////////// */}
       <div className="herothree">
         {/* ENGINEERING SERVICES */}
         <div className="herothree-container">

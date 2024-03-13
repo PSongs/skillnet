@@ -16,11 +16,11 @@
   /* border: 1px solid black; */
   width: 100%;
   height: 10%;
+  padding-left: 0.3rem;
 }
 
 .Con-img{
-  width: 10rem; 
-  height: 2.5rem;
+ scale: 100%;
 }
 
 .contact-us-container{

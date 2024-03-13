@@ -4,6 +4,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 20px;
+    height: 4rem;
     padding-left: 10rem;
     padding-right: 10rem;
     background-color: #eee;
@@ -15,8 +16,7 @@
   }
   
   .NavLogo {
-    width: 10rem; 
-    height: 2.5rem;
+    scale: 80%;
   }
   
   .Navul {
@@ -39,3 +39,35 @@
     color: #0099D7 ;
   }
 
+
+  .Dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .Dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #eee;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .Dropdown-content li {
+    padding: 0.3rem;
+    display: block;
+  }
+
+  .Dropdown-content li a {
+    text-decoration: none;
+    color: #000000;
+  }
+  
+  .Dropdown:hover .Dropdown-content {
+    display: block;
+  }
+
+  .Dropdown-content li a:hover{
+    color: #0099D7 ;
+  }
