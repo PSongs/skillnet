@@ -98,7 +98,7 @@ const Home = () => {
             </h5>
             <div className="herothreebox">
               <h5>
-                <Link className="herothreereadmore" to="/about">
+                <Link className="herothreereadmore" to="/engineering">
                   READ MORE
                 </Link>
               </h5>
@@ -121,7 +121,7 @@ const Home = () => {
             </h5>
             <div className="herothreebox">
               <h5>
-                <Link className="herothreereadmore" to="/about">
+                <Link className="herothreereadmore" to="/logistics">
                   READ MORE
                 </Link>
               </h5>
@@ -144,7 +144,7 @@ const Home = () => {
             </h5>
             <div className="herothreebox">
               <h5>
-                <Link className="herothreereadmore" to="/about">
+                <Link className="herothreereadmore" to="/tech">
                   READ MORE
                 </Link>
               </h5>
@@ -301,7 +301,7 @@ const Home = () => {
 
             <h5>
               Email: <br></br>
-              skillnetintegratedservices@gmail.com{" "}
+              skillnetintegrated219@gmail.com{" "}
             </h5>
           </div>
           <div className="section2">

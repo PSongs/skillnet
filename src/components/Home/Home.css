@@ -628,34 +628,3 @@ button{
 .copy-right h5{
     font-weight: 400;
 }
-
-/* .up-arrow{
-    border: 1px solid rgb(240, 10, 163);
-    width: 100%;
-    height: 2.5rem;
-    padding: 0.2rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.arrowdiv{
-    border: 1px solid yellow;
-    width: 96%;
-    height: 2rem;
-} */
-
-/* .uparrow{
-    border: 1px solid black;
-    border-radius: 5px;
-    width: 3%;
-    height: 2rem;
-    display: flex;
-    padding: 0.6rem;
-    justify-content: center;
-    background-repeat: none;
-    background-position: center;
-    background-repeat: none;
-    background-size: cover;
-    background-color: #0099D7;
-} */
