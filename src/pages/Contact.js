@@ -11,7 +11,7 @@ const Contact = () => {
       <div className="contact-us">
         <div className="Contact-Logo">
           <img className="Con-img" src={ConLogo} alt=""></img>
-        </div>
+        </div><br></br>
         <div className="contact-us-container">
           <div className="contact-us-content1">
             <img className="contact-logo" src={contactuslogo} alt=""></img>

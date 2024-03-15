@@ -3,18 +3,18 @@
     width: 100%;
     height: 100vh;
     padding: 3rem;
-    padding-left: 15rem;
-    padding-right: 15rem;
     /* margin-top:7rem; */
     display: flex;
     flex-direction: column;
     background-color: #eee;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
 
 .Contact-Logo{
   /* border: 1px solid black; */
-  width: 100%;
+  width: 80%;
   height: 10%;
   padding-left: 0.3rem;
 }
@@ -26,7 +26,7 @@
 .contact-us-container{
     /* border: 1px solid black; */
     border-radius: 25px;
-    width: 100%;
+    width: 80%;
     height: 85%;
     padding: 1rem;
     display: flex;
