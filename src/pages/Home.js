@@ -12,7 +12,7 @@ import { Link } from "react-router-dom";
 import twitter from "../assets/twitter.png";
 import instagram from "../assets/instagram.png";
 import facebook from "../assets/facebook.png";
-import arrow from "../assets/up arrow.png";
+// import arrow from "../assets/up arrow.png";
 import Nav from "../components/Nav/Nav";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
@@ -27,14 +27,22 @@ const Home = () => {
         <div className="hero-container">
           <h1 className="hero-h1">
             SkillNet Integrated - Powering Logistics, Tech, Engineering
-          </h1>
+          </h1> <br></br>
 
           <h5 className="hero-h5">
             Welcome to SkillNet Integrated Services Limited, your one-stop
             destination for <br></br>cutting-edge solutions in logistics,
             technology, and engineering. We are your partners in driving
             innovation, efficiency, and success across these dynamic industries.
-          </h5>
+          </h5>  <br></br>
+
+          <button className="hero6-contact">
+              <h3>
+                <Link className="hero6us" to="/contact">
+                  Get Started
+                </Link>
+              </h3>
+            </button>
         </div>
         <div className="hero-logo">
           <img className="hero-img" src={herologo} alt=""></img>
@@ -344,12 +352,6 @@ const Home = () => {
         {/* COPY RIGHT //////////////////////////////////////////////////////////////////////////////////////// */}
         <div className="copy-right">
           <h5>Copyright © 2024 SkillNet Integrated. All rights reserved.</h5>
-        </div>
-        <div className="up-arrow">
-          <div className="arrowdiv"></div>
-          <button className="uparrow">
-            <img className="uarrow" src={arrow} alt=""></img>
-          </button>
         </div>
       </div>
     </div>

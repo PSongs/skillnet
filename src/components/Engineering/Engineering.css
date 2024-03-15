@@ -11,7 +11,7 @@
 .Eng-hero-container{
     /* border: 1px solid black; */
     width: 56%;
-    height: auto;
+    height: 22rem;
     display: flex;
     flex-direction: column;
     padding-left: 5rem;
@@ -23,7 +23,7 @@
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
     width: 40%;
-    height: auto;
+    height: 25rem;
     background-repeat: none;
     background-size: contain;
     display: flex;

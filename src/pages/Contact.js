@@ -29,7 +29,7 @@ const Contact = () => {
             </div>
             <div className="Get-in-touch">
               <h3>Get in Touch</h3>
-            </div>
+            </div><br></br>
 
             {/* FORM //////////////////////////////////////////////////////////////////////////////////// */}
             <form className="contact-form" action="https://formspree.io/f/xkndzkkw" method="POST">
