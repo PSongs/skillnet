@@ -11,7 +11,7 @@
 .Log-hero-container{
     /* border: 1px solid black; */
     width: 56%;
-    height: 22rem;
+    height: 100%;
     display: flex;
     display: flex;
     flex-direction: column;
@@ -24,7 +24,7 @@
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
     width: 40%;
-    height: 25rem;
+    height: 100%;
     background-repeat: none;
     background-size: contain;
     display: flex;

@@ -1,7 +1,7 @@
 .hero{
     /* border: 1px solid black; */
     width: 100%;
-    height: 34rem;
+    height: auto;
     padding: 10rem;
     /* margin-top:7rem; */
     display: flex;
@@ -13,13 +13,13 @@
 .hero-container{
     /* border: 1px solid black; */
     width: 56%;
-    height: 23rem;
+    height: 100%;
 }
 
 .hero-logo{
     /* border: 1px solid black; */
     width: 43%;
-    height: 21rem;
+    height: 100%;
     background-repeat: none;
     background-size: contain;
     display: flex;
@@ -49,9 +49,9 @@
 
 /* HERO TWO //////////////////////////////////////////////////////////////////////// */
 .herotwo{
-    /* border: 1px solid black; */
+    /* border: 5px solid rgb(250, 28, 28); */
     width: 100%;
-    height: 25rem;
+    height: auto;
     /* background-color: black; */
     background-size: cover;
     background-image: url(/src/assets/african-man-black-suit.jpg);
@@ -63,7 +63,7 @@
 .hero-two-container{
     /* border: 1px solid black; */
     width: 100%;
-    height: 25rem;
+    height: 100%;
     background-color: black;
     opacity: 80%;
     display: flex;
@@ -120,9 +120,9 @@
 
 /* HERO THREE //////////////////////////////////////////////////////////////////////// */
 .herothree{
-    /* border: 1px solid black; */
+    /* border: 2px solid black; */
     width: 100%;
-    height: 48rem;
+    height: auto;
     padding: 3rem;
     padding-left: 10rem;
     padding-right: 10rem;
@@ -135,7 +135,7 @@
 .herothree-container{
     /* border: 1px solid black; */
     width: 32%;
-    height: auto;
+    height: 100%;
     padding: 1rem;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -149,7 +149,7 @@
 .herothreelogo1{
     /* border: 1px solid black; */
     width: 100%;
-    height: 20rem;
+    height: 50%;
     background-repeat: none;
     background-size: contain;
     display: flex;
@@ -203,7 +203,7 @@
 .herofour{
 /* border: 1px solid black; */
 width: 100%;
-height: 22rem;
+height: auto;
 padding: 2rem;
 padding-left: 10rem;
 padding-right: 10rem;
@@ -219,7 +219,7 @@ justify-content: space-between;
 .herofour-container{
 /* border: 1px solid black; */
 width: 100%;
-height: auto;
+height: 100%;
 padding: 1rem;
 align-items: center;
 height: auto;
@@ -288,7 +288,7 @@ justify-content: space-between;
 .herofive{
     /* border: 1px solid black; */
     width: 100%;
-    height: 36rem;
+    height: auto;
     padding: 3rem;
     padding-left: 10rem;
     padding-right: 10rem;
@@ -304,7 +304,7 @@ justify-content: space-between;
 .herofive-container{
     /* border: 1px solid black; */
     width: 100%;
-    height: auto;
+    height: 100%;
     padding: 1rem;
     align-items: center;
     height: auto;
@@ -396,7 +396,7 @@ button{
 .herosix{
     /* border: 1px solid black; */
     width: 100%;
-    height: 26rem;
+    height: auto;
     padding: 3rem;
     padding-left: 10rem;
     padding-right: 10rem;
@@ -412,7 +412,7 @@ button{
 .herosix-container{
     /* border: 1px solid black; */
     width: 100%;
-    height: auto;
+    height: 100%;
     padding: 1rem;
     align-items: center;
     height: auto;
@@ -490,7 +490,7 @@ button{
 .footer{
     /* border: 1px solid black; */
     width: 100%;
-    height: 24rem;
+    height: auto;
     padding: 3rem;
     padding-left: 10rem;
     padding-right: 10rem;
@@ -507,10 +507,9 @@ button{
     /* border: 1px solid black; */
     border-radius: 15px;
     width: 100%;
-    height: auto;
+    height: 100%;
     padding: 1rem;
     align-items: center;
-    height: auto;
     display: flex;
     flex-direction: row;
     background-color: #eee;

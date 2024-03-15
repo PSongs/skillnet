@@ -1,5 +1,5 @@
 import React from 'react';
-import "../components/Engineering/Engineering.css";
+import "../components/Tech/Tech.css";
 import Engherologo from "../assets/TEC.png";
 import Nav from "../components/Nav/Nav";
 import Engconimg from "../assets/Vector 5.png";
@@ -12,8 +12,8 @@ const Tech = () => {
   return (
     <div>
       <Nav />
-      <div className="Eng-hero">
-        <div className="Eng-hero-container">
+      <div className="Tec-hero">
+        <div className="Tec-hero-container">
           <h1>Tech Services</h1> <br></br>
           <h3>
           Desktop Publishing <br></br>
@@ -40,7 +40,7 @@ const Tech = () => {
               <img className="Eng-5img" src={Engconimg} alt=""></img>
             </button>
         </div>
-        <div className="Eng-hero-image">
+        <div className="Tec-hero-image">
           <img className="Eng-hero-img" src={Engherologo} alt=""></img>
         </div>
       </div>

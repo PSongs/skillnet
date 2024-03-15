@@ -1,4 +1,4 @@
-.Eng-hero{
+.Tec-hero{
     /* border: 1px solid black; */
     width: 100%;
     height: 100vh;
@@ -8,22 +8,22 @@
     background-color: rgb(255, 255, 255);
     justify-content: space-between;
 }
-.Eng-hero-container{
+.Tec-hero-container{
     /* border: 1px solid black; */
     width: 56%;
-    height: 22rem;
+    height: 100%;
     display: flex;
     flex-direction: column;
     padding-left: 5rem;
 }
 
-.Eng-hero-image{
+.Tec-hero-image{
     /* border: 1px solid black; */
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
     width: 40%;
-    height: 25rem;
+    height: 100%;
     background-repeat: none;
     background-size: contain;
     display: flex;
