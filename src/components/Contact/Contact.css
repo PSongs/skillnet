@@ -70,7 +70,7 @@
 .contact-us-content2{
     /* border: 1px solid black; */
     width: 50%;
-    height: 100%;
+    height: auto;
     padding: 2rem;
     display: flex;
     flex-direction: column;
@@ -92,7 +92,7 @@
 .Get-in-touch{
     /* border: 1px solid black; */
     width: 60%;
-    height: 100%;
+    height: 2rem;
 }
 
 .Back-Home{
@@ -162,4 +162,154 @@ input{
 .Contact-Button:hover{
     background-color: #020858;
   }
+
+  
+  /* MEDIA QUERIES SCREEEN FOR 1024PX /////////////////////////////////////////////////////////////////// */
+  @media screen and (max-width: 1024px) {
+    .contact-us {
+        padding: 2rem;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+
+    .Contact-Logo {
+      display: none;
+  }
+
+    .contact-us-container {
+        width: 90%;
+        height: auto;
+        /* padding: 2rem; */
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-us-content1,
+    .contact-us-content2 {
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .contact-us-content1{
+      justify-content: center;
+    }
+
+    .GET-Backhome {
+        width: 100%;
+        height: auto;
+        margin-bottom: 0.6rem;
+        justify-content: center;
+    }
+
+    .Get-in-touch {
+        width: 100%;
+    }
+
+    .Back-Home {
+        width: 100%;
+        justify-content: center;
+        margin-top: 0.5rem;
+    }
+
+    .contact-form {
+        width: 100%;
+        height: 85%;
+        padding: 15px;
+    }
+
+    .form-group img {
+        left: 5px;
+    }
+}
+
+/* MEDIA QUERIES SCREEEN FOR MIN-WIDTH 768PX MAX-WIDTH 1023PX/////////////////////////////////////////////////////////////////// */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .contact-us {
+      padding: 2rem;
+  }
+
+  .Contact-Logo {
+      display: none;
+  }
+
+  .contact-us-container {
+      width: 90%;
+      height: auto;
+  }
+
+  .contact-us-content1 {
+      display: none;
+  }
+
+  .contact-us-content2 {
+      width: 40%;
+      padding: 1rem;
+  }
+
+  .GET-Backhome {
+      height: 10%;
+  }
+
+  .Get-in-touch {
+      width: 70%;
+  }
+
+  .Back-Home {
+      width: 25%;
+  }
+
+  .contact-form {
+      height: 85%;
+  }
+}
+
+/* MEDIA QUERIES SCREEEN FOR MAX-WIDTH 767pX/////////////////////////////////////////////////////////////////// */
+@media screen and (max-width: 767px) {
+  .contact-us {
+      padding: 2rem;
+  }
+
+  .contact-us-container {
+      width: 100%;
+      height: auto;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .contact-us-content1,
+  .contact-us-content2 {
+      width: 100%;
+      padding: 1rem;
+  }
+
+  .contact-logo{
+    display: none;
+  }
+
+  .GET-Backhome {
+      justify-content: center;
+      margin-bottom: 1rem;
+  }
+
+  .Get-in-touch {
+      width: 100%;
+  }
+
+  .Back-Home {
+      width: 100%;
+      justify-content: center;
+  }
+
+  .contact-form {
+      height: auto;
+      padding: 10px;
+  }
+
+  input, textarea {
+      max-height: 4rem;
+  }
+}
+
   

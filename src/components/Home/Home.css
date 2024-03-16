@@ -361,17 +361,16 @@ justify-content: space-between;
     font-weight: 400;
 }
 
-.hero5-contact{
+#hero5-contact{
     /* border: 1px solid black; */
     border-radius: 10px;
     background-color: #0099D7;
-    width: 35%;
-    height: 2.5rem;
-    padding: 0.2rem;
+    width: 40%;
+    height: auto;
+    padding: 0.6rem;
     display: flex;
     flex-direction: row;
-    justify-content: space-between; 
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     align-content: center;  
 }
@@ -383,7 +382,7 @@ justify-content: space-between;
     /* margin-right: 1rem; */
 }
 
-.hero5-contact:hover{
+#hero5-contact:hover{
     background-color: #020858;
 }
 
@@ -625,4 +624,344 @@ button{
 
 .copy-right h5{
     font-weight: 400;
+}
+
+/* MEDIA QUERIES SCREEEN FOR 1024PX /////////////////////////////////////////////////////////////////// */
+@media screen and (min-width: 1024px) {
+    .hero {
+        padding: 5rem; /* Adjusted padding for larger screens */
+    }
+
+    .herotwo,
+    .herothree,
+    .herofour,
+    .herofive,
+    .herosix,
+    .footer {
+        padding: 5rem; /* Adjusted padding for larger screens */
+    }
+
+    .herotwo{
+        padding: 0%;
+    }
+
+    .hero-container,
+    .hero-two-container,
+    .herothree-container,
+    .herofour-container,
+    .herofive-container,
+    .herosix-container,
+    .footer-container {
+        padding: 2rem; /* Adjusted padding for larger screens */
+    }
+
+    .hero-two-container{
+        height: 100%;
+        width: 100%;
+    }
+
+    .herotwo,
+    .herofive-logo,
+    .herofiveImg,
+    .herosix-logo {
+        height: 30rem; /* Adjusted height for larger screens */
+    }
+
+    .herofour-con1{
+        height: auto !important;
+    }
+
+    .herofour-con1,
+    .section1,
+    .section2 {
+        height: 18rem; /* Adjusted height for larger screens */
+    }
+}
+
+/* MEDIA QUERIES SCREEEN FOR MIN-WIDTH 768PX MAX-WIDTH 1023PX/////////////////////////////////////////////////////////////////// */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .hero {
+      padding: 5rem; /* Adjust padding for smaller screens */
+    }
+
+    .hero-logo{
+        display: none;
+    }
+    
+    .hero-container {
+      width: 70%; /* Adjust width for smaller screens */
+    }
+  
+    .Abt-Content-Wrap {
+      width: 80%; /* Adjust width for smaller screens */
+    }
+  
+    .herothree {
+      padding: 2rem; /* Adjust padding for smaller screens */
+      padding-left: 5rem; /* Adjust padding for smaller screens */
+      padding-right: 5rem; /* Adjust padding for smaller screens */
+    }
+  
+    .herothree-container {
+      width: 40%; /* Adjust width for smaller screens */
+    }
+  
+    .herofour {
+      padding: 1rem; /* Adjust padding for smaller screens */
+      padding-left: 5rem; /* Adjust padding for smaller screens */
+      padding-right: 5rem; /* Adjust padding for smaller screens */
+    }
+  
+    .herofour-container {
+      width: 80%; /* Adjust width for smaller screens */
+    }
+  
+    .herofive {
+      padding: 2rem; /* Adjust padding for smaller screens */
+      padding-left: 5rem; /* Adjust padding for smaller screens */
+      padding-right: 5rem; /* Adjust padding for smaller screens */
+    }
+  
+    .herofive-container {
+      padding-left: 1rem; /* Adjust padding for smaller screens */
+      padding-right: 1rem; /* Adjust padding for smaller screens */
+    }
+  
+    .herofive-logo,
+    .herofivetext {
+      width: 100%; /* Adjust width for smaller screens */
+      height: 25rem; /* Adjust height for smaller screens */
+    }
+  
+    .herosix {
+      padding: 2rem; /* Adjust padding for smaller screens */
+      padding-left: 5rem; /* Adjust padding for smaller screens */
+      padding-right: 5rem; /* Adjust padding for smaller screens */
+    }
+  
+    .herosix-container {
+      padding-left: 1rem; /* Adjust padding for smaller screens */
+      padding-right: 1rem; /* Adjust padding for smaller screens */
+    }
+  
+    .herosixtext,
+    .herosix-logo {
+      width: 100%; /* Adjust width for smaller screens */
+      height: 20rem; /* Adjust height for smaller screens */
+    }
+  
+    .footer {
+      padding: 2rem; /* Adjust padding for smaller screens */
+      padding-left: 5rem; /* Adjust padding for smaller screens */
+      padding-right: 5rem; /* Adjust padding for smaller screens */
+    }
+  
+    .footer-container {
+      flex-direction: column; /* Change flex direction for smaller screens */
+      align-items: center; /* Align items to center for smaller screens */
+    }
+  
+    .section1,
+    .section2 {
+      width: 100%; /* Adjust width for smaller screens */
+      height: auto; /* Adjust height for smaller screens */
+      padding: 1rem; /* Adjust padding for smaller screens */
+    }
+  }
+  
+  /* MEDIA QUERIES SCREEEN FOR MAX-WIDTH 767pX/////////////////////////////////////////////////////////////////// */
+  @media screen and (max-width: 767px) {
+    /* Adjustments for .hero */
+    .hero {
+        padding: 5rem;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero-container {
+        width: 100%;
+    }
+
+    .hero-logo{
+        display: none;
+    }
+
+    /* Adjustments for .herothree */
+    .herothree {
+        padding: 2rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .herothree-container {
+        width: 100%;
+        padding: 0.5rem;
+        margin-top: 1rem;
+    }
+
+    .herothreetext {
+        height: auto;
+    }
+
+    .herothreebox {
+        width: 80%;
+    }
+
+    /* Adjustments for .herofour */
+    .herofour {
+        padding: 1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .herofour-container {
+        width: 100%;
+        padding: 0.5rem;
+    }
+
+    .herofourtext2{
+        justify-content: space-between;
+    }
+    .herofour-con{
+        flex-direction: column;
+    }
+
+    .hero4-img{
+        scale: 30%;
+    }
+
+    .herofour-con1{
+        width: 100%;
+        height: auto;
+        padding: 0.5rem;
+        margin-top: 0.5rem;
+    }
+
+    .herofour-icon{
+        height: 2rem;
+    }
+
+    /* Adjustments for .herofive */
+    .herofive {
+        padding: 2rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .herofive-container {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding: 0.5rem;
+        margin-top: 2rem;
+    }
+
+    .herofive-logo,
+    .herofivetext {
+        width: 100%;
+        height: auto;
+        padding: 0;
+    }
+
+    .herofiveImg{
+        display: none;
+    }
+
+    .hero5-contact{
+        width: 80% !important;
+    }
+
+    .herotxt1,
+    .herotxt2,
+    .herotxt3 {
+        width: 100%;
+    }
+
+    /* Adjustments for .herosix */
+    .herosix {
+        padding: 2rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .herosix-container {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding: 0.5rem;
+    }
+
+    .herosix-logo,
+    .herosixtext {
+        width: 100%;
+        height: auto;
+        padding: 0;
+    }
+
+    .herosix-logo{
+        display: none !important;
+    }
+
+    .hero6txt1{
+        margin-bottom: 1rem;
+    }
+
+    .hero6-contact {
+        width: 80%;
+    }
+
+    /* Adjustments for .footer */
+    .footer {
+        padding: 2rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding: 0.5rem;
+    }
+
+    .section1,
+    .section2 {
+        width: 100%;
+        height: auto;
+        padding: 0.5rem;
+    }
+
+    .socials{
+        scale: 60%;
+    }
+
+    .sectiontxt2{
+        justify-content: space-between;
+        padding: 0.3rem;
+        margin-top: 0.5rem;
+    }
+
+    .Home-input {
+        width: 80%;
+        font-size:50% ;
+    }
+
+    .Submit{
+        width: 19%;
+        font-size: 50%;
+    }
+
+    .copy-right h5{
+        font-size: 60%;
+    }
 }

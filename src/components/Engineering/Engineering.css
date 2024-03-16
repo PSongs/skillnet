@@ -66,3 +66,120 @@
 .herofiveImg{
     scale: 100%;
 }
+
+/* MEDIA QUERIES FOR SCREEN MIN-WIDTH 1024PX /////////////////////////////////////////////////////////// */
+@media screen and (min-width: 1024px) {
+    /* Adjustments for .Eng-hero */
+    .Eng-hero {
+        padding: 5rem;
+        padding-top: 10rem;
+    }
+
+    /* Adjustments for .Eng-hero-container */
+    .Eng-hero-container {
+        padding-left: 8rem;
+    }
+
+    .Eng-hero-container h1{
+        font-size: 400%;
+    }
+
+    .Eng-hero-container h3{
+        font-size: 250%;
+    }
+
+    .Eng-hero-image{
+        height: 90%;
+    }
+
+    /* Adjustments for .Eng-hero-image */
+    .Eng-hero-image {
+        width: 45%;
+    }
+
+    /* Adjustments for .hero5-contact */
+    .hero5-contact {
+        width: 30%;
+        padding: 3rem !important;
+    }
+
+    /* Adjustments for .hero5-contact h3 */
+    .hero5-contact h3 {
+        margin-right: 0.5rem;
+    }
+}
+
+/* MEDIA QUERIES SCREEN FOR MIN-WIDTH 768PX AND MAX-WIDTH 1023PX/////////////////////////////////////////////////// */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    /* Adjustments for .Eng-hero */
+    .Eng-hero {
+        padding: 5rem;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Eng-hero-container {
+        width: 100%;
+        padding: 0;
+        padding-top: 2rem;
+        padding-left: 0;
+    }
+
+    .Eng-hero-image {
+        width: 100%;
+        height: auto;
+        border-radius: 20px;
+        padding: 1rem;
+        margin-top: 2rem;
+    }
+
+    .Eng-hero-img {
+        border-radius: 30px;
+    }
+
+    /* Adjustments for .hero5-contact */
+    .hero5-contact {
+        width: 80%;
+        margin-top: 2rem;
+    }
+
+    .hero5-contact h3 {
+        margin-right: 0.5rem;
+    }
+}
+
+/* MEDIA QUERIES FOR SCREEN MAX-WIDTH 767PX ////////////////////////////////////////////////////////////////// */
+@media screen and (max-width: 767px) {
+    /* Adjustments for .Eng-hero */
+    .Eng-hero {
+        padding: 3rem;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Eng-hero-container {
+        width: 100%;
+        padding: 0;
+    }
+
+    .Eng-hero-image {
+        width: 100%;
+        height: auto;
+        border-radius: 20px;
+        margin-top: 1rem; /* Adjust spacing */
+    }
+
+    .Eng-hero-img {
+        border-radius: 20px;
+    }
+
+    /* Adjustments for .hero5-contact */
+    .hero5-contact {
+        width: 80%; /* Adjust width */
+        margin-top: 1rem; /* Adjust spacing */
+    }
+
+    .hero5-contact h3 {
+        margin-right: 0; /* Remove margin */
+    }
+}
