@@ -1,5 +1,5 @@
 .Tracking-hero{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     height: 100vh;
     padding-top: 1rem;
     display: flex;
@@ -10,13 +10,13 @@
 .Tracking-Logo{
     /* border: 1px solid black; */
     padding-left: 4rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 .Tracking-Container{
     /* border: 1px solid black; */
     width: 100%;
-    height: 27rem;
+    height: 100vh;
     /* background-color: black; */
     background-size: cover;
     background-image: url(/src/assets/happy-client-with-their-box-delivered.jpg);
@@ -32,7 +32,7 @@
     opacity: 70%;
     display: flex;
     justify-content: center;
-    padding-top: 10rem;
+    padding-top: 13rem;
 }
 
 .Track-body{
@@ -72,9 +72,116 @@
     display: flex;
     justify-content: right;
     padding-right: 5rem;
-    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .Track-Back h3:hover{
     color: #0099D7;
+}
+
+/* MEDIA QUERIES FOR SCREEN MIN-WIDTH 1924PX ///////////////////////////////////////////////// */
+@media screen and (min-width: 1924px) {
+    .Tracking-hero {
+        padding-top: 2rem; /* Adjusted padding for larger screens */
+    }
+
+    .Tracking-Logo {
+        padding-left: 6rem; /* Adjusted padding for larger screens */
+    }
+
+    .Tracking-Container {
+        height: auto; /* Adjusted height for larger screens */
+    }
+
+    .Tracking-Container-Opp {
+        padding-top: 15rem; /* Adjusted padding for larger screens */
+    }
+
+    .Track-body {
+        width: 30%; /* Adjusted width for larger screens */
+    }
+
+    .Track-Back {
+        padding-right: 8rem; /* Adjusted padding for larger screens */
+    }
+}
+
+/* MEDIA QUERIES SCREEEN FOR MIN-WIDTH 768PX MAX-WIDTH 1023PX/////////////////////////////////////////////////////////////////// */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .Tracking-hero {
+        /* Adjustments for .Tracking-hero at this screen size */
+    }
+
+    .Tracking-Logo {
+        /* Adjustments for .Tracking-Logo at this screen size */
+    }
+
+    .Tracking-Container {
+        /* Adjustments for .Tracking-Container at this screen size */
+    }
+
+    .Tracking-Container-Opp {
+        /* Adjustments for .Tracking-Container-Opp at this screen size */
+    }
+
+    .Track-body {
+        /* Adjustments for .Track-body at this screen size */
+    }
+
+    .Track-input {
+        /* Adjustments for .Track-input at this screen size */
+    }
+
+    .Track-Btn {
+        /* Adjustments for .Track-Btn at this screen size */
+    }
+
+    .Track-Btn:hover {
+        /* Adjustments for .Track-Btn:hover at this screen size */
+    }
+
+    .Track-Back {
+        /* Adjustments for .Track-Back at this screen size */
+    }
+
+    .Track-Back h3:hover {
+        /* Adjustments for .Track-Back h3:hover at this screen size */
+    }
+}
+
+/* MEDIA QUERIES FOR MAX SCREEN 767PX ////////////////////////////////////////////////////////////////////////// */
+/* Styles for screens with a maximum width of 767px */
+@media screen and (max-width: 767px) {
+    .Tracking-hero {
+        padding-top: 0.5rem; /* Adjusted padding */
+    }
+
+    .Tracking-Logo {
+        padding-left: 2rem; /* Adjusted padding */
+        margin-bottom: 0.5rem; /* Adjusted margin */
+    }
+
+    .Tracking-Container {
+        background-image: none; /* Remove background image on smaller screens */
+    }
+
+    .Tracking-Container-Opp {
+        padding-top: 8rem; /* Adjusted padding */
+    }
+
+    .Track-body {
+        width: 80%; /* Adjusted width */
+    }
+
+    .Track-Input {
+        width: 60%; /* Adjusted width */
+    }
+
+    .Track-Btn {
+        width: 35%; /* Adjusted width */
+    }
+
+    .Track-Back {
+        padding-right: 2rem; /* Adjusted padding */
+    }
 }

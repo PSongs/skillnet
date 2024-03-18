@@ -10,6 +10,7 @@ const Tracking = () => {
         <div className="Tracking-Logo">
           <img className="Track-img" src={TrackLogo} alt=""></img>
         </div>
+        <Link className="Track-Back" to="/logistics"><h3>Back</h3></Link>
         <div className="Tracking-Container">
           <div className="Tracking-Container-Opp">
             <div className="Track-body">
@@ -26,8 +27,6 @@ const Tracking = () => {
             </div>
           </div>
         </div>
-        <Link className="Track-Back" to="/logistics"><h3>Back</h3></Link>
-        <div></div>
       </div>
     </div>
   );

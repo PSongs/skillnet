@@ -152,21 +152,25 @@
 @media screen and (max-width: 767px) {
     /* Adjustments for .Eng-hero */
     .Eng-hero {
-        padding: 3rem;
+        padding: 2rem;
+        height: auto;
         flex-direction: column;
         align-items: center;
+        margin-top: 2rem;
     }
 
     .Eng-hero-container {
         width: 100%;
+        height: auto;
         padding: 0;
+        margin-top: 1rem;
     }
 
     .Eng-hero-image {
         width: 100%;
         height: auto;
         border-radius: 20px;
-        margin-top: 1rem; /* Adjust spacing */
+        margin-top: 2rem;
     }
 
     .Eng-hero-img {
