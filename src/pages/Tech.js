@@ -33,7 +33,7 @@ const Tech = () => {
           Data Base Management<br></br>
           </h3>
           <br></br><br></br>
-          <button className="hero5-contact" onClick={handleWhatsAppChat}>
+          <button id="hero5-contact" onClick={handleWhatsAppChat}>
               <h3>
                   Contact Us
               </h3>

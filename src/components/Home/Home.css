@@ -280,8 +280,8 @@ justify-content: space-between;
     height: 3rem;
 }
 
-.herofoure-icon{
-    scale: 100%;
+.herofour-icon{
+    scale: 50%;
 }
 
 /* HERO FIVE //////////////////////////////////////////////////////////////////////// */
@@ -786,6 +786,28 @@ button{
         display: none;
     }
 
+
+    .hero-two-container{
+        padding: 2rem;
+    }
+
+    .hero-two-container h3{
+        font-size: large;
+    }
+
+    .Abt-Content-Wrap{
+        width: 100%;
+        height: auto;
+    }
+
+    .Abt-Content h2{
+        font-size: large;
+    }
+
+    .Abt-Content h4{
+        font-size: small;
+    }
+
     /* Adjustments for .herothree */
     .herothree {
         padding: 2rem;
@@ -807,6 +829,10 @@ button{
 
     .herothreebox {
         width: 80%;
+    }
+
+    .herothreereadmore{
+        font-size: smaller;
     }
 
     /* Adjustments for .herofour */
@@ -831,7 +857,7 @@ button{
     }
 
     .hero4-img{
-        scale: 30%;
+        scale: 40%;
     }
 
     .herofour-con1{
@@ -874,7 +900,12 @@ button{
     }
 
     .hero5-contact{
-        width: 80% !important;
+        width: 80%;
+    }
+
+    .hero5us,
+    .hero6us{
+        font-size: small;
     }
 
     .herotxt1,
@@ -962,6 +993,6 @@ button{
     }
 
     .copy-right h5{
-        font-size: 60%;
+        font-size: 55%;
     }
 }
