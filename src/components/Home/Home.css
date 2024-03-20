@@ -900,7 +900,8 @@ button{
     }
 
     .hero5-contact{
-        width: 80%;
+        width: 100%;
+        padding: none;
     }
 
     .hero5us,
@@ -946,7 +947,7 @@ button{
     }
 
     .hero6-contact {
-        width: 80%;
+        width: 100%;
     }
 
     /* Adjustments for .footer */
