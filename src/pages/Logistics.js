@@ -7,7 +7,7 @@ import Engconimg from "../assets/Vector 5.png";
 
 const Logistics = () => {
   const handleWhatsAppChat = () => {
-    window.open("https://wa.me//2347067575702", "_blank");
+    window.open("https://wa.me//2349024653072", "_blank");
   };
 
   return (
