@@ -182,7 +182,7 @@
     border-radius: 10px;
     background-color: #0099D7;
     margin-top: 3rem;
-    width: 50%;
+    width: 100%;
     height: auto;
     padding: 0.5rem;
     display: flex;
@@ -679,9 +679,16 @@ button{
 }
 
 /* MEDIA QUERIES SCREEEN FOR MIN-WIDTH 768PX MAX-WIDTH 1023PX/////////////////////////////////////////////////////////////////// */
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 768px) and (max-width: 1025px) {
     .hero {
-      padding: 5rem; /* Adjust padding for smaller screens */
+      padding: 2rem; /* Adjust padding for smaller screens */
+      padding-top: 5rem;
+      justify-content: center;
+    }
+
+    .hero-h1,
+    .hero-h5{
+        text-align: center;
     }
 
     .hero-logo{
@@ -698,12 +705,24 @@ button{
   
     .herothree {
       padding: 2rem; /* Adjust padding for smaller screens */
-      padding-left: 5rem; /* Adjust padding for smaller screens */
-      padding-right: 5rem; /* Adjust padding for smaller screens */
+      padding-left: 1rem; /* Adjust padding for smaller screens */
+      padding-right: 1rem; /* Adjust padding for smaller screens */
+      border: 1px solid black;
     }
   
     .herothree-container {
-      width: 40%; /* Adjust width for smaller screens */
+      width: 32%; /* Adjust width for smaller screens */
+      border: 1px solid black;
+      height: auto;
+    }
+
+    .herothreetext{
+        padding-left: 0.5rem;
+    }
+
+    .herothreetext1{
+        font-size: large;
+        font-weight: bold;
     }
   
     .herofour {
@@ -749,6 +768,10 @@ button{
       width: 100%; /* Adjust width for smaller screens */
       height: 20rem; /* Adjust height for smaller screens */
     }
+
+    .hero6-contact{
+        width: 100%;
+    }
   
     .footer {
       padding: 2rem; /* Adjust padding for smaller screens */
@@ -773,13 +796,19 @@ button{
   @media screen and (max-width: 767px) {
     /* Adjustments for .hero */
     .hero {
-        padding: 5rem;
+        padding: 2rem;
+        padding-top: 5rem;
         flex-direction: column;
         align-items: center;
     }
 
     .hero-container {
         width: 100%;
+    }
+
+    .hero-h1,
+    .hero-h5{
+        text-align: center;
     }
 
     .hero-logo{
@@ -828,7 +857,7 @@ button{
     }
 
     .herothreebox {
-        width: 80%;
+        width: 100%;
     }
 
     .herothreereadmore{
