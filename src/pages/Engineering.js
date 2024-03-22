@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "../components/Engineering/Engineering.css";
 import Engherologo from "../assets/ENG.png";
 import Nav from "../components/Nav/Nav";

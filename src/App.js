@@ -7,7 +7,7 @@ import Engineering from "./pages/Engineering";
 import Logistics from "./pages/Logistics";
 import Tech from "./pages/Tech";
 import Tracking from "./pages/Tracking";
-import './App.css'
+import "./App.css";
 
 function App() {
   return (
