@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import "../components/Home/Home.css";
 import herologo from "../assets/world_img.png";
 import herothreelogo1 from "../assets/engineering image.png";
@@ -19,7 +19,24 @@ import { Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 
-const Home = () => {
+const Home = ({ scrollToAbout, scrollToServices }) => {
+  const aboutRef = useRef(null);
+  const servicesRef = useRef(null);
+
+  useEffect(() => {
+    if (scrollToAbout && aboutRef.current) {
+      aboutRef.current.scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+      });
+    } else if (scrollToServices && servicesRef.current) {
+      servicesRef.current.scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+      })
+    }
+  }, [scrollToAbout, scrollToServices]);
+
   return (
     <div>
       <Nav />
@@ -27,22 +44,22 @@ const Home = () => {
         <div className="hero-container">
           <h1 className="hero-h1">
             SkillNet Integrated - Powering Logistics, Tech, Engineering
-          </h1> <br></br>
-
+          </h1>{" "}
+          <br></br>
           <h5 className="hero-h5">
             Welcome to SkillNet Integrated Services Limited, your one-stop
             destination for <br></br>cutting-edge solutions in logistics,
             technology, and engineering. We are your partners in driving
             innovation, efficiency, and success across these dynamic industries.
-          </h5>  <br></br>
-
+          </h5>{" "}
+          <br></br>
           <button className="hero6-contact">
-              <h3>
-                <Link className="hero6us" to="/contact">
-                  Get Started
-                </Link>
-              </h3>
-            </button>
+            <h3>
+              <Link className="hero6us" to="/contact">
+                Get Started
+              </Link>
+            </h3>
+          </button>
         </div>
         <div className="hero-logo">
           <img className="hero-img" src={herologo} alt=""></img>
@@ -50,7 +67,7 @@ const Home = () => {
       </div>
 
       {/* HERO TWO //////////////////////////////////////////////////////////////////////////// */}
-      <div className="herotwo">
+      <div className="herotwo" ref={aboutRef}>
         <div className="hero-two-container">
           <h3>About Our Company</h3>
           <Swiper
@@ -90,7 +107,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="herothree">
+      <div className="herothree" ref={servicesRef}>
         {/* ENGINEERING SERVICES */}
         <div className="herothree-container">
           <div className="herothreelogo1">

@@ -1,79 +1,44 @@
-
 .Nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 4rem;
-    padding-left: 10rem;
-    padding-right: 10rem;
-    background-color: #eee;
-    color: #000000;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1000;
-  }
-  
-  .NavLogo {
-    scale: 80%;
-  }
-  
-  .Navul {
-    list-style-type: none;
-    display: flex;
-    gap: 40px;
-  }
-  
-  .Navul li {
-    margin: 0;
-    padding: 0;
-  }
-  
-  .Navul li .Nav-hover {
-    text-decoration: none;
-    color: #000000;
-  }
-  
-  .Navul li .Nav-hover:hover {
-    color: #0099D7 ;
-  }
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 4rem;
+  padding-left: 10rem;
+  padding-right: 10rem;
+  background-color: #eee;
+  color: #000000;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
 
+.NavLogo {
+  scale: 80%;
+}
 
-  .Dropdown {
-    position: relative;
-    display: inline-block;
-  }
-  
-  .Dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #eee;
-    min-width: 160px;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-  
-  .Dropdown-content li {
-    padding: 0.3rem;
-    display: block;
-  }
+.menu-icon {
+  display: none;
+}
 
-  .Dropdown-content li a {
-    text-decoration: none;
-    color: #000000;
-  }
-  
-  .Dropdown:hover .Dropdown-content {
-    display: block;
-  }
+.Navul {
+  list-style-type: none;
+  display: flex;
+  gap: 40px;
+}
 
-  .Dropdown-content li a:hover{
-    color: #0099D7 ;
-  }
+.Navul li {
+  margin: 0;
+  padding: 0;
+}
 
-  /* Hamburger Menu Styling */
-.hamburger-menu {
-  display: none; /* Hide by default */
+.Navul li .Nav-hover {
+  text-decoration: none;
+  color: #000000;
+}
+
+.Navul li .Nav-hover:hover {
+  color: #0099d7;
 }
 
 @media only screen and (max-width: 768px) {
@@ -82,19 +47,28 @@
     padding-right: 2rem;
   }
 
+  .menu-icon {
+    display: block;
+  }
+
   .Navul {
-    display: none; /* Hide the nav links */
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    top: 4rem;
+    left: -100%;
+    opacity: 1;
+    transition: left 0.4s ease;
+    height: calc(100dvh - 4rem);
   }
-
-  .hamburger-menu {
-    display: block; /* Show hamburger menu */
-    cursor: pointer;
-  }
-
-  .bar {
-    width: 25px;
-    height: 3px;
-    background-color: #000;
-    margin: 5px 0;
+  .active {
+    top: 4rem;
+    left: 0;
+    align-items: center;
+    justify-content: center;
+    opacity: 1;
+    z-index: 1;
+    background: #fff;
   }
 }
