@@ -32,7 +32,7 @@ const Contact = () => {
             </div><br></br>
 
             {/* FORM //////////////////////////////////////////////////////////////////////////////////// */}
-            <form className="contact-form" action="https://formspree.io/f/xkndzkkw" method="POST">
+            <form className="contact-form" action="https://formspree.io/f/xvoebejw" method="POST">
               <div className="form-group">
                 <img className="fas fa-user" src={nameicon} alt=""></img>
                 <input
