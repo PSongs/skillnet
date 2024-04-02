@@ -121,13 +121,13 @@ const Home = ({ scrollToAbout, scrollToServices }) => {
               civil, marine, electrical and structural engineering to advanced
               system design.
             </h5>
-            <div className="herothreebox">
+            <button className="herothreebox">
               <h5>
                 <Link className="herothreereadmore" to="/engineering">
                   READ MORE
                 </Link>
               </h5>
-            </div>
+            </button>
           </div>
         </div>
 
@@ -144,13 +144,13 @@ const Home = ({ scrollToAbout, scrollToServices }) => {
               transportation, we optimize your operations for maximum efficiency
               and cost-effectiveness.
             </h5>
-            <div className="herothreebox">
+            <button className="herothreebox">
               <h5>
                 <Link className="herothreereadmore" to="/logistics">
                   READ MORE
                 </Link>
               </h5>
-            </div>
+            </button>
           </div>
         </div>
 
@@ -167,13 +167,13 @@ const Home = ({ scrollToAbout, scrollToServices }) => {
               for software development, cybersecurity, or IT infrastructure, we
               have you covered.
             </h5>
-            <div className="herothreebox">
+            <button className="herothreebox">
               <h5>
                 <Link className="herothreereadmore" to="/tech">
                   READ MORE
                 </Link>
               </h5>
-            </div>
+            </button>
           </div>
         </div>
       </div>

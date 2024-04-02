@@ -71,7 +71,7 @@
     /* border: 1px solid black; */
     width: 50%;
     height: auto;
-    padding: 2rem;
+    padding: 0.25rem 1.563rem 1,563rem;
     display: flex;
     flex-direction: column;
     background-color: white;
@@ -195,6 +195,10 @@ input{
       justify-content: center;
     }
 
+    .contact-us-content2{
+        padding: 0.25rem 1.563rem 1,563rem;   
+    }
+
     .GET-Backhome {
         width: 100%;
         height: auto;
@@ -244,7 +248,7 @@ input{
 
   .contact-us-content2 {
       width: 40%;
-      padding: 1rem;
+      padding: 0.25rem 1.563rem 1,563rem; 
   }
 
   .GET-Backhome {
@@ -256,7 +260,7 @@ input{
   }
 
   .Back-Home {
-      width: 25%;
+      width: 100%;
   }
 
   .contact-form {
@@ -283,6 +287,14 @@ input{
   .contact-us-content2 {
       width: 100%;
       padding: 1rem;
+  }
+
+  .contact-us-content1{
+    display: none;
+  }
+
+  .contact-us-content2{
+    padding: 0.25rem 1.563rem 1,563rem !important; 
   }
 
   .contact-logo{

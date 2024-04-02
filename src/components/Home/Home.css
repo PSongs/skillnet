@@ -707,12 +707,12 @@ button{
       padding: 2rem; /* Adjust padding for smaller screens */
       padding-left: 1rem; /* Adjust padding for smaller screens */
       padding-right: 1rem; /* Adjust padding for smaller screens */
-      border: 1px solid black;
+      /* border: 1px solid black; */
     }
   
     .herothree-container {
       width: 32%; /* Adjust width for smaller screens */
-      border: 1px solid black;
+      /* border: 1px solid black; */
       height: auto;
     }
 
@@ -726,24 +726,25 @@ button{
     }
   
     .herofour {
-      padding: 1rem; /* Adjust padding for smaller screens */
-      padding-left: 5rem; /* Adjust padding for smaller screens */
-      padding-right: 5rem; /* Adjust padding for smaller screens */
+      padding: 0.1rem; /* Adjust padding for smaller screens */
+      padding-left: 1rem; /* Adjust padding for smaller screens */
+      padding-right: 1rem; /* Adjust padding for smaller screens */
     }
   
     .herofour-container {
-      width: 80%; /* Adjust width for smaller screens */
+      width: 100%; /* Adjust width for smaller screens */
     }
   
     .herofive {
-      padding: 2rem; /* Adjust padding for smaller screens */
-      padding-left: 5rem; /* Adjust padding for smaller screens */
-      padding-right: 5rem; /* Adjust padding for smaller screens */
+      padding: 0.1rem; /* Adjust padding for smaller screens */
+      padding-left: 1rem; /* Adjust padding for smaller screens */
+      padding-right: 1rem; /* Adjust padding for smaller screens */
     }
   
     .herofive-container {
       padding-left: 1rem; /* Adjust padding for smaller screens */
       padding-right: 1rem; /* Adjust padding for smaller screens */
+      width: 100%;
     }
   
     .herofive-logo,
@@ -751,22 +752,44 @@ button{
       width: 100%; /* Adjust width for smaller screens */
       height: 25rem; /* Adjust height for smaller screens */
     }
+
+    .herofivetext{
+        /* border: 1px solid black; */
+        height: auto !important;
+    }
+
+    .herotxt1{
+        margin-bottom: 1rem;
+        /* border: 1px solid black; */
+        width: 100%;
+    }
+
+    #hero5-contact{
+        width: 100%;
+    }
   
     .herosix {
-      padding: 2rem; /* Adjust padding for smaller screens */
-      padding-left: 5rem; /* Adjust padding for smaller screens */
-      padding-right: 5rem; /* Adjust padding for smaller screens */
+      padding: 0.1rem; /* Adjust padding for smaller screens */
+      padding-left: 1rem; /* Adjust padding for smaller screens */
+      padding-right: 1rem; /* Adjust padding for smaller screens */
     }
   
     .herosix-container {
       padding-left: 1rem; /* Adjust padding for smaller screens */
       padding-right: 1rem; /* Adjust padding for smaller screens */
+      display: flex;
+      justify-content: space-between;
+      /* border: 1px solid black; */
     }
   
     .herosixtext,
     .herosix-logo {
       width: 100%; /* Adjust width for smaller screens */
       height: 20rem; /* Adjust height for smaller screens */
+    }
+
+    .herosixImg{
+        scale: 80%;
     }
 
     .hero6-contact{
