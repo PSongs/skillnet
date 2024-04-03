@@ -325,4 +325,108 @@ input{
   }
 }
 
+@media (max-width: 280px) { /* Adjust based on actual Galaxy Fold screen width */
+    /* CSS styles specific to Galaxy Fold screen size */
+    .contact-us {
+        width: 100%;
+        height: 100vh;
+        padding: 1rem;
+    }
+    
+    .GET-Backhome{
+        /* border: 1px solid black; */
+        width: 100%;
+        height: auto;
+        padding: 0.1rem;
+        margin-bottom: 0.6rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
+    }
+
+    .Back-Home{
+        /* border: 1px solid black; */
+        width: 100% !important;
+    }
+
+    .B-H{
+        margin: none !important;
+        font-size: smaller;
+    }
+    
+    .Get-in-touch{
+        /* border: 1px solid black; */
+        width: 100%;
+        height: 2rem;
+    }
+    
+    .Back-Home{
+        /* border: 1px solid black; */
+        width: 30%;
+        height: 100%;
+        display: flex;
+        justify-content: right;
+        text-decoration: none;
+    }
+    
+    .Back-Home a{
+        text-decoration: none;
+        font-weight: 400;
+        color: black;
+    }
+    
+    .Back-Home a:hover{
+        color:#0099D7;
+    }
+    
+    .contact-form {
+        width: 100%;
+        height: 87%;
+        padding: a;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+    
+      .form-group {
+        position: relative;
+        margin-bottom: 1.5rem;
+      }
+    
+    .form-group img {
+        position: absolute;
+        left: 10px;
+        top: 50%;
+        transform: translateY(-50%);
+        color: #aaa;
+      }
+    
+    input, textarea {
+        width: 100%;
+        max-height: 4.5rem;
+        max-width: 100%;
+        padding: 10px;
+        background-color: #eee;
+        border: none;
+        border-radius: 5px;
+      }
+    
+    input{
+        padding-left: 2rem;
+    }
+    
+    .Contact-Button{
+        background-color:#0099D7 ;
+        color: #fff;
+        width: 100%;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+    
+    .Contact-Button:hover{
+        background-color: #020858;
+      }
+  }
+
   

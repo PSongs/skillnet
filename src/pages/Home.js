@@ -352,18 +352,21 @@ const Home = ({ scrollToAbout, scrollToServices }) => {
                 </h5>
               </div>
             </div>
-            <div className="sectiontxt2">
-              <input
-                className="Home-input"
-                type="email"
-                name="email"
-                placeholder="Email Address"
-                required
-              ></input>
-              <button className="Submit" type="submit">
-                SUBSCRIBE
-              </button>
-            </div>
+            <form className="Sub-form" action="https://formspree.io/f/xvoebejw" method="POST">
+              <div className="sectiontxt2">
+                  <input
+                    className="Home-input"
+                    type="email"
+                    name="email"
+                    placeholder="Email Address"
+                    required
+                  ></input>
+                  <button className="Submit" type="submit">
+                    SUBSCRIBE
+                  </button>
+              </div>
+            </form>
+              
           </div>
         </div>
         {/* COPY RIGHT //////////////////////////////////////////////////////////////////////////////////////// */}

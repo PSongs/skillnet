@@ -36,7 +36,7 @@ const Logistics = () => {
             <img className="Eng-5img" src={Engconimg} alt=""></img>
           </button>
           <br></br>
-          <Link className="Track" to="/tracking">Track your goods here</Link>
+          {/* <Link className="Track" to="/tracking">Track your goods here</Link> */}
         </div>
       </div>
     </div>
