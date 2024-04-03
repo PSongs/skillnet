@@ -444,8 +444,8 @@ button{
 
 .hero6txt2{
     /* border: 1px solid black; */
-    width: 65%;
-    height: rem;
+    width: auto;
+    height: auto;
 }
 
 .herosix2{
@@ -626,7 +626,7 @@ button{
     /* border: 1px solid black; */
     width: 100%;
     height: 4rem;
-    padding: 2rem;
+    padding: 0.5rem;
     display: flex;
     align-content: center;
     justify-content: center;
@@ -1084,18 +1084,38 @@ button{
         font-size: 20px;
     }
 
+    .herosix,
+    .herosix-container{
+        padding: 1rem;
+        /* border: 1px solid black; */
+    }
+
+    .herosixtext{
+        width: 100%;
+        /* border: 1px solid black; */
+        padding: none;
+    }
+
+    .herosix1{
+        /* border: 1px solid black; */
+    }
+
+    .herosix2{
+        /* border: 1px solid black; */
+    }
+
     .herofour-con1{
         font-size: 13px;
     }
 
     .footer{
         padding: 0.7rem;
+        display: flex;
     }
 
     .footer-container{
         padding: 0.4rem;
         display: flex;
-        flex-direction: column !important;
     }
 
     .footertxt1{
@@ -1104,12 +1124,44 @@ button{
 
     .section2{
         display: flex;
-        flex-direction: column !important;
     }
 
     .stxt1,
     .stxt2{
         width: 100%;
+    }
+
+    .section1 h5{
+        font-size: 11px;
+    }
+
+    .section2 h5{
+        font-size: 11px;
+    }
+
+    .Sub-form,
+    .Home-input,
+    .Submit{
+        /* border: 1px solid black; */
+    }
+
+    .Home-input{
+        width: 70% !important;
+        font-size: xx-small;
+    }
+
+    .Submit{
+        font-size: xx-small;
+        width: 28%;
+    }
+
+    .copy-right{
+        /* border: 1px solid black; */
+    }
+
+    .copy-right h5{
+        font-size: 9px;
+        padding-top: 0.888rem;
     }
     
   }
