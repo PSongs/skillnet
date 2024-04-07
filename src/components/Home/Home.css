@@ -146,6 +146,11 @@
     justify-content: space-between;    
 }
 
+.herothree-container:hover{
+    background-color: white;
+}
+
+
 .herothreelogo1{
     /* border: 1px solid black; */
     width: 100%;

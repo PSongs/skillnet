@@ -107,6 +107,7 @@ const Home = ({ scrollToAbout, scrollToServices }) => {
         </div>
       </div>
 
+      {/* HERO THREE //////////////////////////////////////////////////////////////////////////////////////////////// */}
       <div className="herothree" ref={servicesRef}>
         {/* ENGINEERING SERVICES */}
         <div className="herothree-container">
