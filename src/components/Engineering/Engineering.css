@@ -2,47 +2,51 @@
     /* border: 1px solid black; */
     width: 100%;
     height: 100vh;
-    padding: 7rem;
+    padding: 6rem;
+    padding-left: 9rem;
+    padding-right: 9rem;
     display: flex;
-    flex-direction: row;
-    background-color: rgb(255, 255, 255);
+    flex-direction: column;
+    background-color: white;
     justify-content: space-between;
 }
 .Eng-hero-container{
     /* border: 1px solid black; */
-    width: 56%;
+    border-radius: 20px;
+    /* background-color: white; */
+    background-image: linear-gradient(to right, rgb(255, 255, 255), #e6f8ff);
+    width: 100%;
     height: auto;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
     padding-left: 5rem;
+    padding-right: 5rem;
 }
 
-.Eng-hero-image{
+.Services{
     /* border: 1px solid black; */
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
-    width: 40%;
-    height: auto;
-    background-repeat: none;
-    background-size: contain;
-    display: flex;
-}
-
-.Eng-hero-img{
     width: 100%;
-    height: auto;
-    border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
-    border-bottom-right-radius: 30px;
+    height: 2rem;
 }
 
-#hero5-contact{
+.Services h4{
+    font-weight: 400;
+}
+
+.Services:hover{
+    color: #0099D7;
+}
+
+#service-contact{
     /* border: 1px solid black; */
     border-radius: 10px;
     background-color: #0099D7;
-    width: auto;
-    height: auto;
+    width: 35%;
+    height: 2.5rem;
     padding: 0.5rem;
     display: flex;
     flex-direction: row;
@@ -52,14 +56,14 @@
     align-content: center;  
 }
 
-#hero5-contact h3{
+#service-contact h3{
     color: white;
     font-weight: 500;
     text-decoration: none;
     margin-right: 1rem;
 }
 
-.hero5-contact:hover{
+#service-contact:hover{
     background-color: #020858;
 }
 
@@ -67,160 +71,237 @@
     scale: 100%;
 }
 
+
 /* MEDIA QUERIES FOR SCREEN MIN-WIDTH 1024PX /////////////////////////////////////////////////////////// */
 @media screen and (min-width: 1024px) {
-    /* Adjustments for .Eng-hero */
-    .Eng-hero {
-        padding: 5rem;
-        padding-top: 10rem;
+    .Eng-hero{
+        /* border: 1px solid black; */
+        width: 100%;
+        height: 100vh;
+        padding: 6rem;
+        padding-left: 9rem;
+        padding-right: 9rem;
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        justify-content: space-between;
     }
-
-    /* Adjustments for .Eng-hero-container */
-    .Eng-hero-container {
-        padding-left: 8rem;
-    }
-
-    .Eng-hero-container h1{
-        font-size: 200%;
-    }
-
-    .Eng-hero-container h3{
-        font-size: 120%;
-    }
-
     .Eng-hero-container{
         /* border: 1px solid black; */
-        width: 56%;
+        border-radius: 20px;
+        /* background-color: white; */
+        background-image: linear-gradient(to right, rgb(255, 255, 255), #e6f8ff);
+        width: 100%;
         height: auto;
         display: flex;
         flex-direction: column;
-        padding-left: 5rem;
-    }
-    
-    .Eng-hero-image{
-        /* border: 1px solid black; */
-        border-top-left-radius: 20px;
-        border-top-right-radius: 20px;
-        border-bottom-right-radius: 20px;
-        width: auto;
-        height: 23rem;
-        background-repeat: none;
-        background-size: contain;
-        display: flex;
-    }
-    
-    .Eng-hero-img{
-        width: 100%;
-        height: 100%;
-        border-top-left-radius: 30px;
-        border-top-right-radius: 30px;
-        border-bottom-right-radius: 30px;
-    }
-
-    /* Adjustments for .Eng-hero-image */
-    .Eng-hero-image {
-        width: 45%;
-    }
-
-    /* Adjustments for .hero5-contact */
-    #hero5-contact {
-        width: 30%;
-    }
-
-    /* Adjustments for .hero5-contact h3 */
-    .hero5-contact h3 {
-        margin-right: 0.5rem;
-    }
-}
-
-/* MEDIA QUERIES SCREEN FOR MIN-WIDTH 768PX AND MAX-WIDTH 1023PX/////////////////////////////////////////////////// */
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-    /* Adjustments for .Eng-hero */
-    .Eng-hero {
-        padding: 5rem;
-        flex-direction: column;
+        justify-content: space-between;
         align-items: center;
-    }
-
-    .Eng-hero-container {
-        width: 100%;
-        padding: 0;
         padding-top: 2rem;
-        padding-left: 0;
+        padding-bottom: 2rem;
+        padding-left: 5rem;
+        padding-right: 5rem;
     }
-
-    .Eng-hero-container h1{
-        font-size: larger;
-    }
-
-    .Eng-hero-image {
+    
+    .Services{
+        /* border: 1px solid black; */
         width: 100%;
-        height: auto;
-        border-radius: 20px;
-        padding: 1rem;
-        margin-top: 2rem;
+        height: 2rem;
     }
-
-    .Eng-hero-img {
-        border-radius: 30px;
+    
+    .Services h4{
+        font-weight: 400;
     }
-
-    /* Adjustments for .hero5-contact */
-    .hero5-contact {
-        width: 80%;
-        margin-top: 2rem;
+    
+    .Services:hover{
+        color: #0099D7;
     }
-
-    .hero5-contact h3 {
-        margin-right: 0.5rem;
-    }
-}
-
-/* MEDIA QUERIES FOR SCREEN MAX-WIDTH 767PX ////////////////////////////////////////////////////////////////// */
-@media screen and (max-width: 767px) {
-    /* Adjustments for .Eng-hero */
-    .Eng-hero {
-        padding: 2rem;
-        height: auto;
-        flex-direction: column;
+    
+    .hero5-contact{
+        /* border: 1px solid black; */
+        border-radius: 10px;
+        background-color: #0099D7;
+        width: 35%;
+        height: 2.5rem;
+        padding: 0.5rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between; 
+        justify-content: center;
         align-items: center;
-        margin-top: 2rem;
+        align-content: center;  
     }
+    
+    .hero5-contact h3{
+        color: white;
+        font-weight: 500;
+        text-decoration: none;
+        margin-right: 1rem;
+    }
+    
+    .hero5-contact:hover{
+        background-color: #020858;
+    }
+    
+    .herofiveImg{
+        scale: 100%;
+    }
+  }
 
-    .Eng-hero-container {
+
+
+  /* MEDIA QUERIES SCREEN FOR MIN-WIDTH 768PX AND MAX-WIDTH 1023PX/////////////////////////////////////////////////// */
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    .Eng-hero{
+        /* border: 1px solid black; */
+        width: 100%;
+        height: 100vh;
+        padding: 6rem;
+        padding-left: 9rem;
+        padding-right: 9rem;
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        justify-content: space-between;
+    }
+    .Eng-hero-container{
+        /* border: 1px solid black; */
+        border-radius: 20px;
+        /* background-color: white; */
+        background-image: linear-gradient(to right, rgb(255, 255, 255), #e6f8ff);
         width: 100%;
         height: auto;
-        padding: 0;
-        margin-top: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        padding-left: 5rem;
+        padding-right: 5rem;
     }
-
-    .Eng-hero-container h1{
-        font-size: larger;
-    }
-
-    .Eng-hero-container h3{
-        font-size: small;
-    }
-
-
-    .Eng-hero-image {
+    
+    .Services{
+        /* border: 1px solid black; */
         width: 100%;
-        height: auto;
+        height: 2rem;
+    }
+    
+    .Services h4{
+        font-weight: 400;
+    }
+    
+    .Services:hover{
+        color: #0099D7;
+    }
+    
+    .hero5-contact{
+        /* border: 1px solid black; */
+        border-radius: 10px;
+        background-color: #0099D7;
+        width: 35%;
+        height: 2.5rem;
+        padding: 0.5rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between; 
+        justify-content: center;
+        align-items: center;
+        align-content: center;  
+    }
+    
+    .hero5-contact h3{
+        color: white;
+        font-weight: 500;
+        text-decoration: none;
+        margin-right: 1rem;
+    }
+    
+    .hero5-contact:hover{
+        background-color: #020858;
+    }
+    
+    .herofiveImg{
+        scale: 100%;
+    }
+  }
+
+
+  /* MEDIA QUERIES FOR SCREEN MAX-WIDTH 767PX ////////////////////////////////////////////////////////////////// */
+@media screen and (max-width: 767px) {
+    .Eng-hero{
+        /* border: 1px solid black; */
+        width: 100%;
+        height: 100vh;
+        padding: 6rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        justify-content: space-between;
+    }
+    .Eng-hero-container{
+        /* border: 1px solid black; */
         border-radius: 20px;
-        margin-top: 2rem;
+        /* background-color: white; */
+        background-image: linear-gradient(to right, rgb(255, 255, 255), #e6f8ff);
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        padding-left: 2rem;
+        padding-right: 0.99rem;
     }
-
-    .Eng-hero-img {
-        border-radius: 20px;
+    
+    .Services{
+        /* border: 1px solid black; */
+        width: 100%;
+        height: 2rem;
     }
-
-    /* Adjustments for .hero5-contact */
-    .hero5-contact {
-        width: 80%; /* Adjust width */
-        margin-top: 1rem; /* Adjust spacing */
+    
+    .Services h4{
+        font-weight: 400;
+        font-size: 14px ;
     }
-
-    .hero5-contact h3 {
-        margin-right: 0; /* Remove margin */
+    
+    .Services:hover{
+        color: #0099D7;
+    }
+    
+    #service-contact{
+        /* border: 1px solid black; */
+        border-radius: 10px;
+        background-color: #0099D7;
+        width: 100%;
+        height: 2.5rem;
+        padding: 0.5rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between; 
+        justify-content: center;
+        align-items: center;
+        align-content: center;  
+    }
+    
+    #service-contact h3{
+        color: white;
+        font-weight: 500;
+        font-size: 14px;
+        text-decoration: none;
+        margin-right: 1rem;
+    }
+    
+    #service-contact:hover{
+        background-color: #020858;
+    }
+    
+    .herofiveImg{
+        scale: 100%;
     }
 }
+

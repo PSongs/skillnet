@@ -1,8 +1,7 @@
 import React from 'react';
 import "../components/Tech/Tech.css";
-import Engherologo from "../assets/TEC.png";
 import Nav from "../components/Nav/Nav";
-import Engconimg from "../assets/Vector 5.png";
+import herofiveimg from "../assets/Vector 5.png";
 
 const Tech = () => {
     const handleWhatsAppChat = () => {
@@ -15,33 +14,29 @@ const Tech = () => {
       <div className="Tec-hero">
         <div className="Tec-hero-container">
           <h1>Tech Services</h1> <br></br>
-          <h3>
-          Desktop Publishing <br></br>
-          Diploma Programme in Computer Hardware<br></br>
-          Certificate Programme in Computer <br></br>
-          Programming <br></br>
-          Networking<br></br> 
-          Accounting Package<br></br>
-          Oil and Gas Software<br></br> 
-          Computer Aided Design<br></br> 
-          Engineering Software<br></br> 
-          Graphics Design <br></br>
-          Structural Analysis<br></br>
-          Data Analysis<br></br>
-          Web Design/Hosing<br></br> 
-          Project Management<br></br>
-          Data Base Management<br></br>
-          </h3>
-          <br></br><br></br>
-          <button id="hero5-contact" onClick={handleWhatsAppChat}>
+          <div className='Services'><h4>Desktop Publishing</h4></div>
+          <div className='Services'><h4>Diploma Programme in Computer Hardware</h4></div>
+          <div className='Services'><h4>Certificate Programme in Computer</h4></div>
+          <div className='Services'><h4>Programming</h4></div>
+          <div className='Services'><h4>Networking</h4></div>
+          <div className='Services'><h4> Accounting Package</h4></div>
+          <div className='Services'><h4>Oil and Gas Software</h4></div>
+          <div className='Services'><h4> Computer Aided Design</h4></div>
+          <div className='Services'><h4>Engineering Software</h4></div>
+          <div className='Services'><h4>Graphics Design</h4></div>
+          <div className='Services'><h4>Structural Analysis</h4></div>
+          <div className='Services'><h4>Data Analysis</h4></div>
+          <div className='Services'><h4>Web Design/Hosing</h4></div>
+          <div className='Services'><h4> Project Management</h4></div>
+          <div className='Services'><h4>Data Base Management</h4></div>
+          
+          <button id="service-contact" onClick={handleWhatsAppChat}>
               <h3>
                   Contact Us
               </h3>
-              <img className="Eng-5img" src={Engconimg} alt=""></img>
-            </button>
-        </div>
-        <div className="Tec-hero-image">
-          <img className="Eng-hero-img" src={Engherologo} alt=""></img>
+
+              <img className="hero5img" src={herofiveimg} alt=""></img>
+          </button>
         </div>
       </div>
     </div>

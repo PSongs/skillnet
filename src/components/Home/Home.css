@@ -6,8 +6,8 @@
     /* margin-top:7rem; */
     display: flex;
     flex-direction: row;
-    background-color: rgb(255, 255, 255);
-    justify-content: space-between;
+    background-image: linear-gradient(to right, rgb(255, 255, 255), #b9e9fc);
+    justify-content: center;
 }
 
 .hero-container{
@@ -65,7 +65,7 @@
     width: 100%;
     height: 100%;
     background-color: black;
-    opacity: 80%;
+    opacity: 60%;
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -645,6 +645,7 @@ button{
 @media screen and (min-width: 1024px) {
     .hero {
         padding: 5rem; /* Adjusted padding for larger screens */
+        
     }
 
     .herotwo,

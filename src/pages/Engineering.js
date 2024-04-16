@@ -1,8 +1,7 @@
 import React, { useEffect } from "react";
 import "../components/Engineering/Engineering.css";
-import Engherologo from "../assets/ENG.png";
 import Nav from "../components/Nav/Nav";
-import Engconimg from "../assets/Vector 5.png";
+import herofiveimg from "../assets/Vector 5.png";
 
 const Engineering = () => {
   const handleWhatsAppChat = () => {
@@ -14,26 +13,22 @@ const Engineering = () => {
       <Nav />
       <div className="Eng-hero">
         <div className="Eng-hero-container">
-          <h1>Engineering Services</h1> <br></br><br></br>
-          <h3>
-            Architectural Drawings <br></br>
-            Civil Drawing <br></br>
-            Mechanical Drawings <br></br>
-            Electrical Drawings <br></br>
-            Land Surveying <br></br>
-            Borehole Drilling <br></br>
-            Project/ Engineering Management
-          </h3>
-          <br></br><br></br><br></br>
-          <button id="hero5-contact" onClick={handleWhatsAppChat}>
+          <h1>Engineerng Services</h1> <br></br>
+          <div className='Services'><h4>Architectural Drawings</h4></div>
+          <div className='Services'><h4>Civil Drawing</h4></div>
+          <div className='Services'><h4>Mechanical Drawings</h4></div>
+          <div className='Services'><h4>Electrical Drawings</h4></div>
+          <div className='Services'><h4>Land Surveying</h4></div>
+          <div className='Services'><h4>Borehole Drilling</h4></div>
+          <div className='Services'><h4>Project/ Engineering Management</h4></div>
+         
+          <button id="service-contact" onClick={handleWhatsAppChat}>
               <h3>
-                  Chat Us
+                  Contact Us
               </h3>
-              <img className="Eng-5img" src={Engconimg} alt=""></img>
-            </button>
-        </div>
-        <div className="Eng-hero-image">
-          <img className="Eng-hero-img" src={Engherologo} alt=""></img>
+
+              <img className="hero5img" src={herofiveimg} alt=""></img>
+          </button>
         </div>
       </div>
     </div>
