@@ -277,7 +277,7 @@
         /* border: 1px solid black; */
         border-radius: 10px;
         background-color: #0099D7;
-        width: 100%;
+        width: 100% !important;
         height: 2.5rem;
         padding: 0.5rem;
         display: flex;
@@ -291,7 +291,7 @@
     #service-contact h3{
         color: white;
         font-weight: 500;
-        font-size: 14px;
+        font-size: 10px;
         text-decoration: none;
         margin-right: 1rem;
     }
@@ -301,7 +301,7 @@
     }
     
     .herofiveImg{
-        scale: 100%;
+        scale: 40%;
     }
 }
 
