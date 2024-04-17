@@ -692,6 +692,12 @@ button{
     .section2 {
         height: 18rem; /* Adjusted height for larger screens */
     }
+
+    #hero5-contact{
+        width: 100%;
+        padding-left: 6rem;
+        padding-right: 6rem;
+    }
 }
 
 /* MEDIA QUERIES SCREEEN FOR MIN-WIDTH 768PX MAX-WIDTH 1023PX/////////////////////////////////////////////////////////////////// */
@@ -782,6 +788,8 @@ button{
 
     #hero5-contact{
         width: 100%;
+        padding-left: 6rem;
+        padding-right: 6rem;
     }
   
     .herosix {
