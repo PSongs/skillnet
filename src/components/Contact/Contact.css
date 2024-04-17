@@ -6,7 +6,8 @@
     /* margin-top:7rem; */
     display: flex;
     flex-direction: column;
-    background-color: #eee;
+    /* background-color: #eee; */
+    background-image: linear-gradient(to right, #ffffff, #eee, #a9d6e7);
     justify-content: center;
     align-items: center;
     align-content: center;
