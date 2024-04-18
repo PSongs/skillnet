@@ -196,7 +196,7 @@ const Home = ({ scrollToAbout, scrollToServices }) => {
             <div className="herofour-con1">
               <div className="fourholder1">
                   <h4>Proven Expertise:</h4>
-                  <button className="herofour-icon1" onClick={() => setShowContent1(!showContent1)}>
+                  <button className="herofour-icon" onClick={() => setShowContent1(!showContent1)}>
                     <img className="hero4-img" src={herofouricon} alt=""></img>
                   </button>
               </div>
@@ -206,7 +206,7 @@ const Home = ({ scrollToAbout, scrollToServices }) => {
             <div className="herofour-con2">
               <div className="fourholder2">
                     <h4>Innovative Solutions:</h4>
-                    <button className="herofour-icon2" onClick={() => setShowContent2(!showContent2)}>
+                    <button className="herofour-icon" onClick={() => setShowContent2(!showContent2)}>
                       <img className="hero4-img" src={herofouricon} alt=""></img>
                     </button>
               </div>
@@ -220,7 +220,7 @@ const Home = ({ scrollToAbout, scrollToServices }) => {
             <div className="herofour-con3">
               <div className="fourholder3">
                 <h4>Tailored Approach:</h4>
-                <button className="herofour-icon3" onClick={() => setShowContent3(!showContent3)}>
+                <button className="herofour-icon" onClick={() => setShowContent3(!showContent3)}>
                   <img className="hero4-img" src={herofouricon} alt=""></img>
                 </button>
               </div>
@@ -231,7 +231,7 @@ const Home = ({ scrollToAbout, scrollToServices }) => {
             <div className="herofour-con4">
             <div className="fourholder4">
                 <h4>Global Reach:</h4>
-                <button className="herofour-icon4" onClick={() => setShowContent4(!showContent4)}>
+                <button className="herofour-icon" onClick={() => setShowContent4(!showContent4)}>
                   <img className="hero4-img" src={herofouricon} alt=""></img>
                 </button>
               </div>
