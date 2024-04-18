@@ -304,5 +304,22 @@
         scale: 100%;
     }
 }
+
+@media screen and (max-width: 280px) {
+    .Tec-hero,
+    .Tec-hero-container{
+     padding-left: 1rem;
+     padding-right: 1rem;
+    }
+ 
+    .Tec-hero-container h1{
+     font-size: large;
+    }
+ 
+    .Services h4{
+     font-size: smaller;
+    }
+     
+   }
   
 

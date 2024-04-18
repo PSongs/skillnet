@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import "../components/Home/Home.css";
 import herologo from "../assets/world_img.png";
 import herothreelogo1 from "../assets/engineering image.png";
@@ -22,6 +22,11 @@ import "swiper/css/navigation";
 const Home = ({ scrollToAbout, scrollToServices }) => {
   const aboutRef = useRef(null);
   const servicesRef = useRef(null);
+
+  const [showContent1, setShowContent1] = useState(false);
+  const [showContent2, setShowContent2] = useState(false);
+  const [showContent3, setShowContent3] = useState(false);
+  const [showContent4, setShowContent4] = useState(false);
 
   useEffect(() => {
     if (scrollToAbout && aboutRef.current) {
@@ -181,43 +186,61 @@ const Home = ({ scrollToAbout, scrollToServices }) => {
 
       {/* HERO FOUR //////////////////////////////////////////////////////////////////////////// */}
       <div className="herofour">
-        <div className="herofour-container">
-          <div className="herofourtext1">
-            <h1 className="herofourtxt1">Why Choose Us?</h1>
-          </div>
-          <div className="herofourtext2">
-            {/* ONE */}
-            <div className="herofour-con">
-              <div className="herofour-con1">
-                <h4>Proven Expertise:</h4>
-                <button className="herofour-icon">
-                  <img className="hero4-img" src={herofouricon} alt=""></img>
-                </button>
+      <div className="herofour-container">
+        <div className="herofourtext1">
+          <h1 className="herofourtxt1">Why Choose Us?</h1>
+        </div>
+        <div className="herofourtext2">
+          {/* ONE */}
+          <div className="herofour-con">
+            <div className="herofour-con1">
+              <div className="fourholder1">
+                  <h4>Proven Expertise:</h4>
+                  <button className="herofour-icon1" onClick={() => setShowContent1(!showContent1)}>
+                    <img className="hero4-img" src={herofouricon} alt=""></img>
+                  </button>
               </div>
-              <div className="herofour-con1">
-                <h4>Innovative Solutions:</h4>
-                <button className="herofour-icon">
-                  <img className="hero4-img" src={herofouricon} alt=""></img>
-                </button>
-              </div>
+
+              {showContent1 && <p>With years of experience and a track record of success,we're the partner you can trust.</p>}
             </div>
-            {/* TWO */}
-            <div className="herofour-con">
-              <div className="herofour-con1">
+            <div className="herofour-con2">
+              <div className="fourholder2">
+                    <h4>Innovative Solutions:</h4>
+                    <button className="herofour-icon2" onClick={() => setShowContent2(!showContent2)}>
+                      <img className="hero4-img" src={herofouricon} alt=""></img>
+                    </button>
+              </div>
+
+              {showContent2 && <p>We stay at the forefront of industry trends to deliver innovative solutions that meet and exceed your expectations.</p>}
+            </div>
+            
+          </div>
+          {/* TWO */}
+          <div className="herofour-conA">
+            <div className="herofour-con3">
+              <div className="fourholder3">
                 <h4>Tailored Approach:</h4>
-                <button className="herofour-icon">
+                <button className="herofour-icon3" onClick={() => setShowContent3(!showContent3)}>
                   <img className="hero4-img" src={herofouricon} alt=""></img>
                 </button>
               </div>
-              <div className="herofour-con1">
+              
+              {showContent3 && <p>We understand that each business is unique. Our solutions are customized to suit your specific needs and goals.</p>}
+            </div>
+
+            <div className="herofour-con4">
+            <div className="fourholder4">
                 <h4>Global Reach:</h4>
-                <button className="herofour-icon">
+                <button className="herofour-icon4" onClick={() => setShowContent4(!showContent4)}>
                   <img className="hero4-img" src={herofouricon} alt=""></img>
                 </button>
               </div>
+    
+              {showContent4 && <p>Our services are not bound by borders. We serve clients locally and internationally, enabling you to expand your reach.</p>}
             </div>
           </div>
         </div>
+      </div>
       </div>
 
       {/* HERO FIVE //////////////////////////////////////////////////////////////////////////// */}

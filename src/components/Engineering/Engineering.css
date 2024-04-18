@@ -305,3 +305,20 @@
     }
 }
 
+
+@media screen and (max-width: 280px) {
+    .Eng-hero,
+    .Eng-hero-container{
+     padding-left: 1rem;
+     padding-right: 1rem;
+    }
+ 
+    .Eng-hero-container h1{
+     font-size: large;
+    }
+ 
+    .Services h4{
+     font-size: smaller;
+    }
+     
+   }

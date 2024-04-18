@@ -12,13 +12,13 @@
 
 .hero-container{
     /* border: 1px solid black; */
-    width: 56%;
+    width: 54%;
     height: 100%;
 }
 
 .hero-logo{
     /* border: 1px solid black; */
-    width: 43%;
+    width: 44%;
     height: 100%;
     background-repeat: none;
     background-size: contain;
@@ -247,7 +247,7 @@ justify-content: space-between;
 .herofourtext2{
     /* border: 1px solid black; */
     width: 100%;
-    height: 12rem;
+    height: auto;
     margin-top: 2rem;
     display: flex;
     flex-direction: column;
@@ -257,7 +257,16 @@ justify-content: space-between;
 .herofour-con{
     /* border: 1px solid black; */
     width: 100%;
-    height: 5rem;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.herofour-conA{
+     /* border: 1px solid black; */
+    width: 100%;
+    height: auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -267,22 +276,91 @@ justify-content: space-between;
     /* border: 1px solid black; */
     border-radius: 10px;
     background-color: #eee;
+    margin-bottom: 1rem;
     width: 49%;
-    height: 4.5rem;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.herofour-con2{
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    background-color: #eee;
+    margin-bottom: 1rem;
+    width: 49%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.herofour-con3{
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    background-color: #eee;
+    margin-bottom: 1rem;
+    width: 49%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.herofour-con4{
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    background-color: #eee;
+    margin-bottom: 1rem;
+    width: 49%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.fourholder1,
+.fourholder2,
+.fourholder3,
+.fourholder4{
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    background-color: #eee;
+    width: 100%;
+    height: 2.5rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 1rem;
+    padding: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
-.herofour-con1 h4{
-    font-weight: 400;
+.herofour-con1 p,
+.herofour-con2 p,
+.herofour-con3 p,
+.herofour-con4 p{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
 }
 
-.herofour-icon{
+.herofour-con1 h4,
+.herofour-con2 h4,
+.herofour-con3 h4,
+.herofour-con4 h4{
+    font-weight: 500;
+}
+
+.herofour-icon1 button,
+.herofour-icon2 button,
+.herofour-icon3 button,
+.herofour-icon4 button{
     /* border: 1px solid black; */
     width: 10%;
     height: 3rem;
+    /* border: none; */
 }
 
 .herofour-icon{
@@ -370,9 +448,9 @@ justify-content: space-between;
     /* border: 1px solid black; */
     border-radius: 10px;
     background-color: #0099D7;
-    width: 30%;
+    width: 40%;
     height: auto;
-    padding: 0.6rem;
+    padding: 0.6rem !important;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -694,9 +772,13 @@ button{
     }
 
     #hero5-contact{
-        width: 100%;
-        padding-left: 6rem;
-        padding-right: 6rem;
+        width: 40% !important;
+        display: flex;
+        justify-content: center;
+    }
+
+    .hero5img{
+        display: none;
     }
 }
 
@@ -787,7 +869,7 @@ button{
     }
 
     #hero5-contact{
-        width: 100%;
+        width: 100% !important;
         padding-left: 6rem;
         padding-right: 6rem;
     }
@@ -928,7 +1010,8 @@ button{
     .herofourtext2{
         justify-content: space-between;
     }
-    .herofour-con{
+    .herofour-con,
+    .herofour-conA{
         flex-direction: column;
     }
 
@@ -936,7 +1019,10 @@ button{
         scale: 40%;
     }
 
-    .herofour-con1{
+    .herofour-con1,
+    .herofour-con2,
+    .herofour-con3,
+    .herofour-con4{
         width: 100%;
         height: auto;
         padding: 0.5rem;
@@ -977,8 +1063,12 @@ button{
 
     #hero5-contact{
         width: 100% !important;
-        padding-left: 6rem;
-        padding-right: 6rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    .hero5img{
+        display: none;
     }
 
     .hero5us,
